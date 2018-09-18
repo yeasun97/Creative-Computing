@@ -8,7 +8,6 @@ body {
 p {
   font-size:18;
   line-height: 22px;
-
 }
 
 h1 {
@@ -21,26 +20,28 @@ h1 {
 h2 {
   font-style: ;
   font-size:35;
-  color:#c0392b ;
+  color:#c0392b;
 }
 
 h5 {
-  font-size:12;
+  font-size:14;
   color:
 }
 
 .done {
   font-family: Courier;
   line-height: 40px;
-  text-decoration:
 }
 
-#black-text{
-  color: green;
-}
+.subject {
+  font-size:14;
+  color:#909497;
+  }
 
-#red-text{
-  color: red;
+"font-size:65"
+
+#names{
+  font-weight: bold;
 }
 
 #rounded-box{
