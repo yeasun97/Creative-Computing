@@ -1,0 +1,53 @@
+body{
+  font-family: sans-serif;
+}
+
+.still-life{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-color: skyblue;
+  position: relative;
+}
+
+.book{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: relative;
+  transform: translate(40px, 100px);
+}
+
+.cup{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: relative;
+  transform: translate(50px, 80px);
+  z-index: 1;
+}
+
+.cupcontainer{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: relative;
+  transform: translate(50px, 80px);
+  z-index: 1;
+}
+
+.pen{
+  width: 2px;
+  height: 20px;
+  background-color: black;
+  transform: translate(5px, -20px);
+  z-index: 1;
+}
+
+.paper{
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  float: left;
+  transform: translate(50px, 30px);
+}

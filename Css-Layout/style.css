@@ -1,0 +1,177 @@
+#black{
+  width: 160px;
+  height: 220px;
+  background-color: #17202a;
+  position: fixed;
+  bottom: 110px;
+  left: 400px;
+  margin: 0px auto;
+  border-radius: 60px;
+}
+
+#gold{
+  width: 100px;
+  height: 120px;
+  background-color: #D1981E;
+  position: fixed;
+  left: 250px;
+  bottom: 120px;
+  border-radius: 700px 700px 0px 0px;
+}
+
+#goldline{
+  width: 100px;
+	height: 5px;
+  background-color: #855F07;
+  position: fixed;
+  left: 250px;
+  bottom: 150px;
+}
+
+#pen{
+  width: 20px;
+  height: 75px;
+  background-color: #909497;
+  position: fixed;
+  bottom: 440px;
+  left: 460px;
+  border-radius: 200px;
+  transform: rotate(35deg);
+}
+
+#pencap{
+  width: 20px;
+  height: 40px;
+  background-color: black;
+  position: fixed;
+  bottom: 440px;
+  left: 448px;
+  border-radius: 200px;
+  transform: rotate(35deg);
+}
+
+#yellow{
+  width: 90px;
+  height: 320px;
+  background-color: #F3BE2F;
+  position: fixed;
+  left: 800px;
+  bottom: 90px;
+  transform: rotate(-10deg);
+}
+
+#trapezoid{
+	border-top: 300px solid grey;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	height: 200px;
+	width: 50px;
+  position: fixed;
+  left: 320px;
+  bottom: -80px;
+}
+
+#trapezoidlabel{
+  height: 200px;
+	width: 50px;
+  border-top: 200px solid beige;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+  position: fixed;
+  bottom: 0px;
+  left: 340px;
+}
+
+#card{
+  width: 100px;
+  height: 140px;
+  background-color: #ecf0f1;
+  position: fixed;
+  bottom: 330px;
+  left: 415px;
+  border-radius: 10px;
+}
+
+#cardrectangle{
+	width: 80px;
+	height: 60px;
+	background-color: #1238AD;
+  position: fixed;
+  bottom: 410px;
+  left: 415px;
+  border-radius: 10px;
+}
+
+#blueobject{
+  border-bottom: 330px solid dodgerblue;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  width: 150px;
+  position: fixed;
+  bottom: 110px;
+  left: 450px;
+  transform: skewY(10deg);
+  border-radius: 25px;
+}
+
+#blueobject2{
+  border-top: 280px solid dodgerblue;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  width: 150px;
+  position: fixed;
+  bottom: 435px;
+  left: 450px;
+  transform: skewY(10deg);
+  border-radius: 25px;
+}
+
+#blueobjectline{
+  width: 155px;
+	height: 5px;
+  background-color: #207FD6;
+  position: fixed;
+  left: 527px;
+  bottom: 430px;
+  transform: skewY(10deg);
+}
+
+#blueobjectline2{
+  width: 5px;
+	height: 525px;
+  background-color: #207FD6;
+  position: fixed;
+  left: 550px;
+  bottom: 200px;
+  transform: skewY(10deg);
+}
+
+#blueobjectline3{
+  width: 5px;
+	height: 605px;
+  background-color: #207FD6;
+  position: fixed;
+  left: 590px;
+  bottom: 112px;
+  transform: skewY(10deg);
+}
+
+#blueobjectline4{
+  width: 5px;
+	height: 605px;
+  background-color: #207FD6;
+  position: fixed;
+  left: 640px;
+  bottom: 103px;
+  transform: skewY(10deg);
+}
+
+#book{
+  width: 280px;
+	height: 450px;
+	background-color: #B28546;
+  position: fixed;
+  bottom: 160px;
+  left: 545px;
+  transform: skewY(10deg);
+}
