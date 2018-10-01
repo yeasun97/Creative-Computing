@@ -1,0 +1,45 @@
+#box{
+  width:8.5in;
+  height:11in;
+  background-color: #F4E0D9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(#F4E0D9, #fbfcfc, #F4E0D9);
+}
+
+#title{
+  font-size: 85px;
+  color: #FFFFFF;
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#loveyourself{
+  font-size: 70px;
+  -webkit-text-fill-color: #F4E0D9; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  position: fixed;
+  top: 35%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  transform: rotate(-25deg);
+}
+
+#circle {
+  background: #D8C8DB;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  background: radial-gradient(circle at 100px 100px, #ebdef0, #fbfcfc);
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+BBB2CF
