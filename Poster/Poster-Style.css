@@ -48,8 +48,9 @@
   position: fixed;
   top: 43%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
 }
+
 
 #la{
   font-size: 17px;
@@ -112,4 +113,10 @@
   top: 88%;
   left: 63%;
   transform: translate(-50%, -50%);
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  //CSS
+
 }
