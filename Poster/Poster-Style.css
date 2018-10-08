@@ -23,7 +23,7 @@ blink {
         font-size: 70px;
         -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
         -webkit-text-stroke-width: 3px;
-        -webkit-text-stroke-color: #E3AECC;
+        -webkit-text-stroke-color: #F7BDBC;
         position: absolute;
         top: 35%;
         left: 35%;
