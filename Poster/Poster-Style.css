@@ -1,13 +1,12 @@
 #box{
   width:8in;
-  height:4.5in;
+  height:2.3in;
   background-color: #F4E0D9;
   position: fixed;
-  top: 27%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-image: linear-gradient(#F8C9B8, #F7BDBC, #F5ABC4, #E3AECC, #D1B3D5, #C5B7DA, #B4BEE1, #A4C6E9);
-  box-shadow: 0 0 6px 6px #ffffff inset;
 }
 
 #title{
@@ -24,9 +23,9 @@ blink {
         font-size: 70px;
         -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
         -webkit-text-stroke-width: 3px;
-        -webkit-text-stroke-color: white;
+        -webkit-text-stroke-color: #E3AECC;
         position: absolute;
-        top: 29%;
+        top: 35%;
         left: 35%;
        }
       @keyframes blinker {
@@ -127,7 +126,6 @@ blink {
   position: relative;
   top: 138.5%;
   left: 73%;
-  box-shadow: 0 0 6px 6px #ffffff inset;
 }
 
 .circle:hover{
@@ -143,7 +141,6 @@ blink {
   position: relative;
   top: 143%;
   left: 73%;
-  box-shadow: 0 0 6px 6px #ffffff inset;
 }
 
 .circletwo:hover{
