@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:800');
 
 #box{
   width:8in;
@@ -10,11 +11,31 @@
   background-image: linear-gradient(#F8C9B8, #F7BDBC, #F5ABC4, #E3AECC, #D1B3D5, #C5B7DA, #B4BEE1, #A4C6E9);
 }
 
+#boxtwo{
+  width:1.3in;
+  height:0.5in;
+  background-color: #F4E0D9;
+  position: fixed;
+  top: 94%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(#F8C9B8, #F7BDBC, #F5ABC4, #E3AECC, #D1B3D5, #C5B7DA, #B4BEE1, #A4C6E9);
+}
+
 #title{
-  font-size: 80px;
+  font-size: 85px;
   color: #FFFFFF;
   position: fixed;
   top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#tickets{
+  font-size: 22px;
+  color: #FFFFFF;
+  position: fixed;
+  top: 94%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -26,8 +47,8 @@ blink {
         -webkit-text-stroke-width: 3px;
         -webkit-text-stroke-color: #F5ABC4;
         position: absolute;
-        top: 35%;
-        left: 34%;
+        top: 32%;
+        left: 35.5%;
        }
       @keyframes blinker {
         50% { opacity: 0; }
@@ -46,10 +67,10 @@ blink {
        }
 
 #northamerica{
-  font-size: 30px;
+  font-size: 35px;
   color: #FFFFFF;
   position: fixed;
-  top: 20%;
+  top: 21%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -58,8 +79,8 @@ blink {
   font-size: 17px;
   color: #FFFFFF;
   position: fixed;
-  top: 66.2%;
-  left: 37.3%;
+  top: 56%;
+  left: 37.5%;
   transform: translate(-50%, -50%);
 }
 
@@ -67,8 +88,8 @@ blink {
   font-size: 17px;
   color: #FFFFFF;
   position: fixed;
-  top: 66.2%;
-  left: 49.8%;
+  top: 56%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -76,8 +97,8 @@ blink {
   font-size: 17px;
   color: #FFFFFF;
   position: fixed;
-  top: 66.2%;
-  left: 62.4%;
+  top: 56%;
+  left: 62.6%;
   transform: translate(-50%, -50%);
 }
 
@@ -85,8 +106,8 @@ blink {
   font-size: 17px;
   color: #FFFFFF;
   position: fixed;
-  top: 88%;
-  left: 37.3%;
+  top: 77.5%;
+  left: 37.6%;
   transform: translate(-50%, -50%);
 }
 
@@ -94,8 +115,8 @@ blink {
   font-size: 17px;
   color: #FFFFFF;
   position: fixed;
-  top: 88%;
-  left: 49.8%;
+  top: 77.5%;
+  left: 50.2%;
   transform: translate(-50%, -50%);
 }
 
@@ -103,8 +124,8 @@ blink {
   font-size: 17px;
   color: #FFFFFF;
   position: fixed;
-  top: 88%;
-  left: 62.3%;
+  top: 77.5%;
+  left: 62.6%;
   transform: translate(-50%, -50%);
 }
 
@@ -125,8 +146,8 @@ blink {
   border-radius: 100px;
   transform: translate(1);
   position: relative;
-  top: 138.5%;
-  left: 73%;
+  top: 112%;
+  left: 73.9%;
 }
 
 .circle:hover{
@@ -140,8 +161,8 @@ blink {
   border-radius: 100px;
   transform: translate(1);
   position: relative;
-  top: 143%;
-  left: 73%;
+  top: 116%;
+  left: 73.9%;
 }
 
 .circletwo:hover{
