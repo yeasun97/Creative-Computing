@@ -1,40 +1,55 @@
 #box{
   width:8in;
-  height:11in;
+  height:4.5in;
   background-color: #F4E0D9;
   position: fixed;
-  top: 50%;
+  top: 27%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-image: linear-gradient(#F8C9B8, #F7BDBC, #F5ABC4, #E3AECC, #D1B3D5, #C5B7DA, #B4BEE1, #A4C6E9);
+  box-shadow: 0 0 6px 6px #ffffff inset;
 }
 
 #title{
   font-size: 80px;
   color: #FFFFFF;
   position: fixed;
-  top: 5%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-#loveyourself{
-  font-size: 70px;
-  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: white;
-  position: absolute;
-  top: 36%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  transform: rotate(-20deg);
-}
+blink {
+        animation: blinker 2s linear infinite;
+        font-size: 70px;
+        -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: white;
+        position: absolute;
+        top: 29%;
+        left: 35%;
+       }
+      @keyframes blinker {
+        50% { opacity: 0; }
+       }
+       .blink-one {
+         animation: blinker-one 2s linear infinite;
+       }
+       @keyframes blinker-one {
+         0% { opacity: 0; }
+       }
+       .blink-two {
+         animation: blinker-two 2s linear infinite;
+       }
+       @keyframes blinker-two {
+         100% { opacity: 0; }
+       }
 
 #northamerica{
   font-size: 30px;
   color: #FFFFFF;
   position: fixed;
-  top: 15%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -106,12 +121,13 @@
 .circle{
   width: 170px;
   height: 170px;
-  background: radial-gradient(circle at 100px 100px, #ebdef0, #fbfcfc);
+  background: radial-gradient(circle at 90px 90px, #E3AECC, #ffffff);
   border-radius: 100px;
   transform: translate(1);
   position: relative;
   top: 138.5%;
   left: 73%;
+  box-shadow: 0 0 6px 6px #ffffff inset;
 }
 
 .circle:hover{
@@ -121,12 +137,13 @@
 .circletwo{
   width: 170px;
   height: 170px;
-  background: radial-gradient(circle at 100px 100px, #ebdef0, #fbfcfc);
+  background: radial-gradient(circle at 90px 90px, #E3AECC, #ffffff);
   border-radius: 100px;
   transform: translate(1);
   position: relative;
   top: 143%;
   left: 73%;
+  box-shadow: 0 0 6px 6px #ffffff inset;
 }
 
 .circletwo:hover{
