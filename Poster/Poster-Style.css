@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:800');
 
-#box{
+#container{
   width:8in;
   height:2.3in;
   background-color: #F4E0D9;
@@ -11,7 +11,7 @@
   background-image: linear-gradient(#F8C9B8, #F7BDBC, #F5ABC4, #E3AECC, #D1B3D5, #C5B7DA, #B4BEE1, #A4C6E9);
 }
 
-#boxtwo{
+#containertwo{
   width:1.3in;
   height:0.5in;
   background-color: #F4E0D9;
