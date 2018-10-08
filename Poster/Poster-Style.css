@@ -106,7 +106,7 @@ blink {
   font-size: 17px;
   color: #FFFFFF;
   position: fixed;
-  top: 77.5%;
+  top:  77.5%;
   left: 37.6%;
   transform: translate(-50%, -50%);
 }
@@ -115,7 +115,7 @@ blink {
   font-size: 17px;
   color: #FFFFFF;
   position: fixed;
-  top: 77.5%;
+  top:  77.5%;
   left: 50.2%;
   transform: translate(-50%, -50%);
 }
