@@ -20,13 +20,13 @@
 
 blink {
         animation: blinker 2s linear infinite;
-        font-size: 70px;
+        font-size: 73px;
         -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
         -webkit-text-stroke-width: 3px;
-        -webkit-text-stroke-color: #F7BDBC;
+        -webkit-text-stroke-color: #F5ABC4;
         position: absolute;
         top: 35%;
-        left: 35%;
+        left: 34%;
        }
       @keyframes blinker {
         50% { opacity: 0; }
