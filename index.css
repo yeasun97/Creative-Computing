@@ -1,18 +1,3 @@
-@media only screen and (max-width: 480px){
-  body {
-    text-align:center;
-    font-family: arial black;
-  }
-}
-
-.active{
-  font-family: arial black;
-}
-
-.dropbtn{
-  font-family: arial black;
-}
-
 
 /* Add a black background color to the top navigation */
 .topnav {
