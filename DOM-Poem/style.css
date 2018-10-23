@@ -1,0 +1,12 @@
+.words {
+  color: blue;
+  font-size: 50px;
+  font-weight: bold;
+  transform: translate(0px);
+  animation: slidein 3s linear 1s infinite alternate;
+}
+
+@keyframes slidein{
+  from { transform: translate(0px);}
+  to {transform: translate(100px);}
+}
