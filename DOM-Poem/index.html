@@ -16,6 +16,19 @@
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 
+  $("document").ready(function()){
+    var myDiv = $("#random");
+    var index = 0;
+    var words = ["wow", "cool", "Yes"]
+
+    myDiv.css ({"color" : "red"})
+    myDiv.click(function()){
+      if(index < words.length){
+        $("body").append("<div class='words'>" + words[index] + "</div>");
+      }
+    }
+  }
+
   </script>
 
 </html>

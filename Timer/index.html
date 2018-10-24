@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Timer</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <section id="text">Hello world</section>
+    <section id="clicks">0</section>
+
+    <script>
+      $("document").ready(function(){
+
+          var second= 0;
+          setInterval(function(){
+            second = second + 1
+            console.log(second);
+          }, 1000);
+        });
+        //once the document has loaded
+        //Our code
+     //    var textElement = $("#text");
+     //    var clickCounter = $("#clicks");
+     //    var clicks = 0;
+     //
+     //    textElement.mouseenter(function() {
+     //    //This replaces the content of #text
+     //    textElement.html("mouse enetered!");
+     //    textElement.css({"background-color" : "red", "color" : "white"})
+     //  });
+     //
+     //    textElement.mouseleave(function(){
+     //      //This replaces the content of #text
+     //    textElement.html("moused left!");
+     //  });
+     //
+     //    textElement.click(function(){
+     //    //This replaces the content of #text
+     //    // textElement.html("mouse clicked!");
+     //    // textElement.append("mouse clicked!");
+     //    clicks = clicks + 1
+     //    clickCounter.html(clicks);
+     //    clickCounter.css({"transform" : "translateY(" + clicks+10 + "px)"})
+     //  });
+     // })
+
+    </script>
+  </body>
+</html>
