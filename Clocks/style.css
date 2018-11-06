@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Khula:800');
+
+#logo{
+  font-size: 60px;
+  font-weight: bolder;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'Khula', sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Khula', sans-serif;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #FFFFFF;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
