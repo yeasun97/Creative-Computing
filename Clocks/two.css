@@ -1,63 +1,160 @@
+p{
+  position: absolute;
+  color: white;
+  font-family: 'Poiret One', sans-serif;
+  font-size: 30px;
+  transform: translate(750px, 60px);
+  color: #DD38A5;
+}
+
 body {
-  background: #F0A8C4;}
-
-.main {
-    display: flex;
-    padding: 2em;
-    height: 90vh;
-    justify-content: center;
-    align-items: middle;
+  background: #000;
+  font-family: 'Poiret One', cursive;
+  color: #DD38A5;
 }
-
-.clockbox,
 #clock {
-    width: 100%;
+  position: relative;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -200px;
 }
-
-.circle {
-    fill: none;
-    stroke: #000;
-    stroke-width: 6;
-    stroke-miterlimit: 10;
+#clock ul {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
 }
-
-.mid-circle {
-    fill: #000;
+#clock ul .hour {
+  height: 380px;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  left: 195px;
 }
-.hour-marks {
-    fill: none;
-    stroke: #000;
-    stroke-width: 7;
-    stroke-miterlimit: 10;
+#clock ul .hour span {
+  display: inline-block;
 }
-
-.hour-arm {
-    fill: none;
-    stroke: #000;
-    stroke-width: 13;
-    stroke-miterlimit: 10;
+#clock #hour {
+  height: 100%;
+  width: 4px;
+  position: absolute;
+  left: 50%;
+  margin-left: -2px;
+  top: 0;
 }
-
-.minute-arm {
-    fill: none;
-    stroke: #000;
-    stroke-width: 9;
-    stroke-miterlimit: 10;
+#clock #hour:after {
+  content: "";
+  display: block;
+  positioN: absolute;
+  height: 30%;
+  width: 100%;
+  background: #DD38A5;
+  bottom: 50%;
 }
-
-.second-arm {
-    fill: none;
-    stroke: #000;
-    stroke-width: 4;
-    stroke-miterlimit: 10;
+#clock #minute {
+  height: 100%;
+  width: 2px;
+  position: absolute;
+  left: 50%;
+  margin-left: -1px;
+  top: 0;
 }
-
-.sizing-box {
-    fill: none;
+#clock #minute:after {
+  content: "";
+  display: block;
+  positioN: absolute;
+  height: 35%;
+  width: 100%;
+  background: #DD38A5;
+  bottom: 50%;
 }
-
-#hour,
-#minute,
-#second {
-    transform-origin: 300px 300px;
+#clock #second {
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+#clock #second:after {
+  content: "";
+  display: block;
+  positioN: absolute;
+  height: 40%;
+  width: 100%;
+  background: #DD38A5;
+  bottom: 50%;
+}
+.hr12 {
+  transform: rotate(360deg);
+}
+.hr12 span {
+  transform: rotate(-360deg);
+}
+.hr11 {
+  transform: rotate(330deg);
+}
+.hr11 span {
+  transform: rotate(-330deg);
+}
+.hr10 {
+  transform: rotate(300deg);
+}
+.hr10 span {
+  transform: rotate(-300deg);
+}
+.hr9 {
+  transform: rotate(270deg);
+}
+.hr9 span {
+  transform: rotate(-270deg);
+}
+.hr8 {
+  transform: rotate(240deg);
+}
+.hr8 span {
+  transform: rotate(-240deg);
+}
+.hr7 {
+  transform: rotate(210deg);
+}
+.hr7 span {
+  transform: rotate(-210deg);
+}
+.hr6 {
+  transform: rotate(180deg);
+}
+.hr6 span {
+  transform: rotate(-180deg);
+}
+.hr5 {
+  transform: rotate(150deg);
+}
+.hr5 span {
+  transform: rotate(-150deg);
+}
+.hr4 {
+  transform: rotate(120deg);
+}
+.hr4 span {
+  transform: rotate(-120deg);
+}
+.hr3 {
+  transform: rotate(90deg);
+}
+.hr3 span {
+  transform: rotate(-90deg);
+}
+.hr2 {
+  transform: rotate(60deg);
+}
+.hr2 span {
+  transform: rotate(-60deg);
+}
+.hr1 {
+  transform: rotate(30deg);
+}
+.hr1 span {
+  transform: rotate(-30deg);
 }
