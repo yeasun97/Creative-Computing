@@ -43,7 +43,7 @@ body{
 
 #windText{
   color: #BFE5F7;
-  transform: translate(0px, 260px);
+  transform: translate(0px, 300px);
   font-size: 25px;
 }
 
@@ -63,7 +63,7 @@ body{
   font-family: Alegreya Sans;
   font-weight: 300;
   position: relative;
-  transform: translate(0px, -600px);
+  transform: translate(0px, -580px);
   color: white;
   font-size: 25px;
 }
