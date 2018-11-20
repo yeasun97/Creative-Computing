@@ -67,3 +67,59 @@ body{
   color: white;
   font-size: 25px;
 }
+
+form {
+  display: flex;
+  margin-left: auto;
+  > * {
+    flex: 1 auto;
+  }
+  button {
+    min-width: 50px;
+  }
+}
+
+input {
+  outline: 0;
+  padding: 10px;
+  background: rgba($light,.05);
+  opacity: .5;
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+}
+
+button {
+  background: none;
+  background-color: $light;
+  border: 0;
+  outline: 0;
+  border: 2px solid $light;
+  padding: 10px;
+  transition: $transition;
+  color: $main;
+  opacity: .5;
+
+  &:hover,
+  &:focus {
+    border-color: $light;
+    background-color: $light;
+    color: $main-dark;
+    opacity: 1;
+  }
+
+  span:first-child {
+    display: none;
+  }
+
+  @media (min-width: 675px) {
+    span:first-child {
+      display: block;
+    }
+    span:last-child {
+      display: none;
+    }
+  }
+
+}
