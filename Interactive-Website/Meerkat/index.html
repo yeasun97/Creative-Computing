@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Meerkat</title>
+  <link rel="stylesheet" href="style.css">
+  <script src='https://code.jquery.com/jquery-1.10.2.js'></script>
+</head>
+
+<body style="text-align:center">
+
+    <div class="eyes">
+      <div class='eye'></div>
+      <div class='eye'></div>
+    </div>
+
+    <script>
+    $("body").mousemove(function(event) {
+      var eye = $(".eye");
+      var x = (eye.offset().left) + (eye.width() / 2);
+      var y = (eye.offset().top) + (eye.height() / 2);
+      var rad = Math.atan2(event.pageX - x, event.pageY - y);
+      var rot = (rad * (180 / Math.PI) * -1) + 90;
+      eye.css({
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+    </script>
+    <img src="meerkat.png">
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Website</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300'>
+  <link rel="stylesheet" href="style.css">
+  <script src='https://code.jquery.com/jquery-1.10.2.js'></script>
+</head>
+
+<body>
+
+<div class="hover11 column">
+  <div>
+    <a href="Dog/index.html">
+    <figure><img src="dog.png"></figure>
+    <span>Dog</span>
+    </a>
+  </div>
+  <div>
+    <a href="Cat/index.html">
+    <figure><img src="cat.png"></figure>
+    <span>Cat</span>
+    </a>
+  </div>
+  <div>
+    <a href="Meerkat/index.html">
+    <figure><img src="meerkat.png"></figure>
+    <span>Meerkat</span>
+    </a>
+  </div>
+</div>
+
+<button id="button">Woof!</button>
+<div id="doc" class="image"></div>
+<br>
+
+<script>
+$(document).ready(function(){
+    $("#button").click(function(){
+        $("#doc").append('<img src="footprint.jpg">');
+    });
+  });
+</script>
+
+
+</body>
+</html>

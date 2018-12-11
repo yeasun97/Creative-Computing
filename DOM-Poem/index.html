@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <head>
     <meta charset="utf-8">
     <title>DOM Poem</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
   </head>
-
-  <body style= "text-align:center; font-family: 'Khula', sans-serif; font-size: 15px; font-style: bold;">
+  <body style= "text-align:center; font-family: 'Khula', sans-serif; font-size: 15px; ">
     <style>
     @import url('https://fonts.googleapis.com/css?family=Khula:800');
     </style>
+    <div id="random"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button id="button" type="button" name="button">Time</button>
+    <br>
+    <br>
+
+    <script>
+     var words = ["by Lang Leav", "-", "-", "You were the one", "I wanted most to stay.","-","-","But time could not","be kept at bay.", "-", "-", "The more it goes,","the more it's gone,","the more it takes away.","-","-","The End"]
+     var i = 0;
+
+     $("document").ready(function(){
+       $("#button").click(function() {
+         $("body").append("<div class='box'>" + words[i] + "</div>");
+         i++;
+       })
+     })
+     </script>
+
+
   </body>
-
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-
-  $("document").ready(function()){
-    var myDiv = $("#random");
-    var index = 0;
-    var words = ["wow", "cool", "Yes"]
-
-    myDiv.css ({"color" : "red"})
-    myDiv.click(function()){
-      if(index < words.length){
-        $("body").append("<div class='words'>" + words[index] + "</div>");
-      }
-    }
-  }
-
-  </script>
 
 </html>
