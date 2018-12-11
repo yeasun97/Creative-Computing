@@ -43,12 +43,21 @@ body{
 
 #windText{
   color: #BFE5F7;
-  transform: translate(0px, 300px);
+  transform: translate(0px, 330px);
   font-size: 25px;
 }
 
 #wind{
   background-color: #BFE5F7;}
+
+#zipcode{
+  transform: translate(-200px, -740px);
+}
+
+#enter{
+  transform: translate(-200px, -740px);
+  color: white;
+}
 
 .location{
   font-family: Alegreya Sans;
