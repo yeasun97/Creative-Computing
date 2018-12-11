@@ -58,12 +58,11 @@ figure:hover+span {
 	opacity: .3;
 }
 
-#button{
-	transform: translate(-530px, 500px)
-}
-
-#doc{
-	/* transform: translate(-1200px, -300px);
-	width:  */
-
+.button{
+	transform: translate(-530px, 500px);
+	background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+	border-radius: 50%;
+	font-size: 20px;
 }

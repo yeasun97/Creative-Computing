@@ -32,13 +32,13 @@
   </div>
 </div>
 
-<button id="button">Woof!</button>
+<button class="button">Woof!</button>
 <div id="doc" class="image"></div>
 <br>
 
 <script>
 $(document).ready(function(){
-    $("#button").click(function(){
+    $(".button").click(function(){
         $("#doc").append('<img src="footprint.jpg">');
     });
   });
