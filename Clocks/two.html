@@ -12,49 +12,33 @@
 </head>
 <p> Current Time</p>
 <body>
-  <div id="clock">
-	<ul>
-		<li class="hour hr1"><span>1</span></li>
-		<li class="hour hr2"><span>2</span></li>
-		<li class="hour hr3"><span>3</span></li>
-		<li class="hour hr4"><span>4</span></li>
-		<li class="hour hr5"><span>5</span></li>
-		<li class="hour hr6"><span>6</span></li>
-		<li class="hour hr7"><span>7</span></li>
-		<li class="hour hr8"><span>8</span></li>
-		<li class="hour hr9"><span>9</span></li>
-		<li class="hour hr10"><span>10</span></li>
-		<li class="hour hr11"><span>11</span></li>
-		<li class="hour hr12"><span>12</span></li>
-	</ul>
+  <div class="clock"></div>
 
-	<div id="hour"></div>
-	<div id="minute"></div>
-	<div id="second"></div>
-</div>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
     <script>
-    function setTime(){
-    	var currentTime = new Date(),
-    		hour = currentTime.getHours(),
-    		minute = currentTime.getMinutes(),
-    		second = currentTime.getSeconds(),
-    		hourDeg = (360/12)*hour,
-    		minuteDeg = (360/60)*minute,
-    		secondDeg = (360/60)*second;
+    function clock() {// We create a new Date object and assign it to a variable called "time".
+    var time = new Date(),
 
-    	$('#hour').css('transform', 'rotate('+hourDeg+'deg)');
+        // Access the "getHours" method on the Date object with the dot accessor.
+        hours = time.getHours(),
 
-    	$('#minute').css('transform', 'rotate('+minuteDeg+'deg)');
+        // Access the "getMinutes" method with the dot accessor.
+        minutes = time.getMinutes(),
 
-    	$('#second').css('transform', 'rotate('+secondDeg+'deg)');
 
+        seconds = time.getSeconds();
+
+    document.querySelectorAll('.clock')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds);
+
+      function harold(standIn) {
+        if (standIn < 10) {
+          standIn = '0' + standIn
+        }
+        return standIn;
+      }
     }
-
-    setInterval(function(){
-    	setTime();
-    }, 1000);
+    setInterval(clock, 1000);
     </script>
 
 </body>
