@@ -50,12 +50,14 @@ figure:hover+span {
 }
 
 .hover11 figure img {
-	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 .hover11 figure:hover img {
-	opacity: .3;
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 
 .button{
